@@ -12,4 +12,4 @@ cmake ../llvm -G Ninja -DLLVM_ENABLE_PROJECTS=libc          \
     -DCMAKE_BUILD_TYPE=MinSizeRel -DLLVM_BUILD_TESTS=ON     \
     -DLLVM_TARGETS_TO_BUILD=X86 -DBUILD_SHARED_LIBS=On      \
     -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang   \
-    -DLLVM_CCACHE_BUILD=ON $limits
+    $limits $other
