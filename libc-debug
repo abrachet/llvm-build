@@ -4,7 +4,7 @@
 
 source platform.sh
 
-export CFLAGS="-O0 -g -fno-omit-frame-pointer"
+export CFLAGS="-O1 -g -fno-omit-frame-pointer"
 
 source limits.sh
 
